@@ -1,3 +1,76 @@
+/* List selectors */
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: serif-serif;
+}
+
+/*  decendent selector */
+/* footer p {
+  font-size: 16px;
+} */
+
+/* nested decendent selector */
+/* article header p {
+  font-style: italic;
+} */
+
 h1 {
   color: orange;
+  font-size: 26px;
+  font-family: cursive;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  /* font-family: sans-serif; */
+}
+
+h4 {
+  font-size: 20px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/* id selector */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
 }
